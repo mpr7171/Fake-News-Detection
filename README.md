@@ -51,16 +51,14 @@ Classify a given news text as **True** or **Fake** using supervised machine lear
 
 ## 🧠 Best Model
 
-### ✅ **Random Forest Classifier**
-- `n_estimators=200`, `min_samples_split=5`, `min_samples_leaf=1`
-- **Accuracy**: 91.76%  
-- **Precision**: 91.59%  
-- **Recall**: 91.08%  
-- **F1 Score**: 91.34%  
+### ✅ **Logistic Regression**
+- `(solver: liblinear, regularization: l1, penalty: 0.1)`
+- **Accuracy**: 93.06%  
+- **Precision**: 92.47%  
+- **Recall**:  93.03%,  
+- **F1 Score**: 92.75%  
 
-✔️ Outperformed Decision Trees and Logistic Regression on most metrics  
-✔️ Handles multicollinearity and correlated features well  
-✔️ Generalizes well due to ensemble nature  
+✔️ Outperformed Decision Trees and Random Forest on most metrics  
 
 ---
 
